@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://res.cloudinary.com/supremevillad/image/upload/v1663040086/icons/coffee_fvyizg.svg"/>
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>🐶 Addiction</title>
+</head>
+<body>
+    <h2>🐶 images used are not mine. CTTO.</h2>
+    <div class="wrapper">
+        <div class="img active">
+            <img src="https://res.cloudinary.com/supremevillad/image/upload/v1663542843/Accordion%20Images/image1_iinize.jpg" alt="aussie shepperd">
+            <h2>Doggo 1</h2>
+        </div>
+        <div class="img">
+            <img src="https://res.cloudinary.com/supremevillad/image/upload/v1663542843/Accordion%20Images/image3_sbd0q6.jpg" alt="aussie shepperd">
+            <h2>Doggo 2</h2>
+        </div>
+        <div class="img">
+            <img src="https://res.cloudinary.com/supremevillad/image/upload/v1663542843/Accordion%20Images/image5_lydqaw.jpg" alt="aussie shepperd">
+            <h2>Doggo 3</h2>
+        </div>
+        <div class="img">
+            <img src="https://res.cloudinary.com/supremevillad/image/upload/v1663542843/Accordion%20Images/image2_eqjtno.jpg" alt="aussie shepperd">
+            <h2>Doggo 4</h2>
+        </div>
+        <div class="img">
+            <img src="https://res.cloudinary.com/supremevillad/image/upload/v1663542843/Accordion%20Images/image4_ctbyf9.jpg" alt="aussie shepperd">
+            <h2>Doggo 5</h2>
+        </div>        
+    </div>
+
+    <script>
+
+        const images = document.querySelectorAll('.img');
+
+        images.forEach(img => {
+            
+            img.addEventListener('click', () => {
+                img.classList.toggle('active')
+            })
+            
+        });
+
+ 
+    </script>
+</body>
+<footer>Made by Supreme Villad 🐶</footer>
+</html>
